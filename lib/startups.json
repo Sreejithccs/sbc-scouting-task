@@ -1,999 +1,1298 @@
 [
-  {
-    "id": 1,
-    "name": "One Chilimba",
-    "description": "One Chilimba is a Zambia based web platform that focuses on easing access to financing for youths and small businesses.",
-    "category": ["Accounting", "Financial Services"],
-    "country": "Zambia",
-    "website": "https://onechilimba.com"
-  },
-  {
-    "id": 2,
-    "name": "Djuaji",
-    "description": "Djuaji is an accounting platform that allows businesses to conduct survey-based research by paying respondents with mobile money.",
-    "category": ["Accounting", "Communities", "Mobile"],
-    "country": "Kenya",
-    "website": "https://www.djuaji.com/"
-  },
-  {
-    "id": 3,
-    "name": "AgriAI",
-    "description": "Smart agriculture solutions",
-    "category": ["Agriculture", "AgTech", "Asset Management"],
-    "country": "South Africa",
-    "website": null
-  },
-  {
-    "id": 4,
-    "name": "DeepLogik",
-    "description": "AI, ML, Finance, Banking, Saas, Mobile",
-    "category": [
-      "Artificial Intelligence",
-      "Banking",
-      "Financial Services",
-      "FinTech",
-      "Information Technology",
-      "Internet",
-      "Machine Learning",
-      "Mobile",
-      "SaaS",
-      "Software"
-    ],
-    "country": "Morocco",
-    "website": "https://www.deeplogik.com"
-  },
-  {
-    "id": 5,
-    "name": "Loniwa Sacco",
-    "description": "Loniwa Sacco is a digital savings & credit company. We offer both short & long term loans to individuals and SMEs in Kenya",
-    "category": ["Banking", "Financial Services", "Venture Capital"],
-    "country": "Kenya",
-    "website": "https://www.loniwasacco.com/"
-  },
-  {
-    "id": 6,
-    "name": "flippify",
-    "description": "Digital financial services platform for millennials.",
-    "category": ["Banking", "Financial Services", "FinTech"],
-    "country": "Ghana",
-    "website": "http://getflippify.com"
-  },
-  {
-    "id": 7,
-    "name": "Regalia International (k) Ltd",
-    "description": "Mr Banks, an online platform developed for Kenya, enables users to upload their banking needs and get related offers directly from banks.",
-    "category": ["Banking", "FinTech"],
-    "country": "Kenya",
-    "website": "https://www.mrbanks-kenya.com"
-  },
-  {
-    "id": 8,
-    "name": "Airbuy",
-    "description": "Airbuy is an alternative payment that allows e-commerce sites to accept payments without their customers exposing their banking details.",
-    "category": ["Banking", "E-Commerce", "FinTech", "Information Technology"],
-    "country": "South Africa",
-    "website": "https://www.airbuy.africa"
-  },
-  {
-    "id": 9,
-    "name": "Zoto",
-    "description": "Zoto is Nigeria's fastest growing mobile digital wallet/payments venture changing the way people pay for for online & offline services",
-    "category": ["Banking", "Finance", "Financial Services", "FinTech"],
-    "country": "Nigeria",
-    "website": "https://zoto.com.ng/"
-  },
-  {
-    "id": 10,
-    "name": "RiovicPay",
-    "description": "RiovicPay is an innovative company providing money transfer and payment tools.",
-    "category": ["Banking", "Finance", "FinTech", "Payments"],
-    "country": "South Africa",
-    "website": "http://riovicpay.com"
-  },
-  {
-    "id": 11,
-    "name": "Howfa",
-    "description": "Community based social media platform. Howfa helps you connect with people and opportunities around your neighbourhood.",
-    "category": [
-      "Big Data",
-      "Information Services",
-      "Information Technology",
-      "Mobile",
-      "Software"
-    ],
-    "country": "Nigeria",
-    "website": null
-  },
-  {
-    "id": 12,
-    "name": "Agric Wallet",
-    "description": "Agric Wallet is a FinTech platform using Artificial Intelligence to manage smallholder payment risk in the supply chain.",
-    "category": [
-      "Agriculture",
-      "Big Data",
-      "Financial Services",
-      "FinTech",
-      "Machine Learning",
-      "Payments"
-    ],
-    "country": "Uganda",
-    "website": "https://www.agricwallet.com"
-  },
-  {
-    "id": 13,
-    "name": "Numbers",
-    "description": "innovation and manufacture of consumer technologies that provide Clean Energy",
-    "category": [
-      "Big Data",
-      "CleanTech",
-      "Energy",
-      "Information Technology",
-      "Renewable Energy",
-      "Security",
-      "Solar"
-    ],
-    "country": "Nigeria",
-    "website": "http://numbers.xigma.org/"
-  },
-  {
-    "id": 14,
-    "name": "VIRGOTECH",
-    "description": "Technology and IT",
-    "category": [
-      "Artificial Intelligence",
-      "Big Data",
-      "Information and Communications Technology (ICT)",
-      "Internet of Things",
-      "Software Engineering"
-    ],
-    "country": "Cameroon",
-    "website": "https://virgotech.cm"
-  },
-  {
-    "id": 15,
-    "name": "Huzzle",
-    "description": "The mobile app that literally offers you the opportunity to get what you want based on your budget, location, time and your convenience",
-    "category": ["Big Data", "iOS", "Social Media"],
-    "country": "Nigeria",
-    "website": "https://huzzle.net/"
-  },
-  {
-    "id": 16,
-    "name": "Mintrics",
-    "description": "A Social Video Analytics & Intelligence Platform that empowers publishers to double their viewership by making data driven decisions",
-    "category": ["Analytics", "Artificial Intelligence", "Big Data", "Machine Learning"],
-    "country": "Egypt",
-    "website": "http://mintrics.com/"
-  },
-  {
-    "id": 17,
-    "name": "WideBot",
-    "description": "WideBot is a Conversational AI Platform that build AI-enabled chatbots that communicate in formal and informal Middle Eastern languages.",
-    "category": [
-      "Artificial Intelligence",
-      "Big Data",
-      "Machine Learning",
-      "Natural Language Processing"
-    ],
-    "country": "Egypt",
-    "website": "https://www.widebot.net/"
-  },
-  {
-    "id": 18,
-    "name": "Node Africa Limited",
-    "description": "Managed Cloud for Enterprises in Africa",
-    "category": ["Big Data", "Cloud Computing", "IaaS"],
-    "country": "Kenya",
-    "website": "https://nodeafrica.com/"
-  },
-  {
-    "id": 19,
-    "name": "Farosian",
-    "description": "Farosian offers unparalleled insight in a digital age, when approaching Social Media - Screening, Literacy Training, and Policy Design.",
-    "category": [
-      "Artificial Intelligence",
-      "Big Data",
-      "Credit",
-      "Human Resources",
-      "Information Services",
-      "Information Technology",
-      "Machine Learning",
-      "Predictive Analytics",
-      "Risk Management",
-      "Social Media"
-    ],
-    "country": "South Africa",
-    "website": "http://www.farosian.com/"
-  },
-  {
-    "id": 20,
-    "name": "Shoppersbill",
-    "description": "Integrated payment, Invoicing and billing Platform",
-    "category": [
-      "Apps",
-      "Billing",
-      "Financial Services",
-      "Information Technology",
-      "Mobile",
-      "Mobile Payments",
-      "Payments",
-      "Software"
-    ],
-    "country": "Nigeria",
-    "website": "https://www.shoppersbill.com"
-  },
-  {
-    "id": 21,
-    "name": "Mirror Trading International",
-    "description": "Mirror Trading International is a trading and networking company that uses Bitcoin as its base currency and to pay member bonuses.",
-    "category": ["Bitcoin", "Cryptocurrency", "Trading Platform"],
-    "country": "South Africa",
-    "website": "https://www.mirrortradinginternational.com/"
-  },
-  {
-    "id": 22,
-    "name": "Levidge",
-    "description": "Levidge is a high-performance crypto collateral trading platform that trades Bitcoin, alt-coins, and assets.",
-    "category": [
-      "Bitcoin",
-      "Cryptocurrency",
-      "Financial Exchanges",
-      "FinTech",
-      "Information Technology",
-      "Trading Platform"
-    ],
-    "country": "Seychelles",
-    "website": "https://levidge.com"
-  },
-  {
-    "id": 23,
-    "name": "QUBI",
-    "description": "QUBI provides top level digital currency trading services for bitcoin, litecoin, ethereum, QB, ripple, eos and more.",
-    "category": ["Bitcoin", "Cryptocurrency", "Ethereum", "FinTech"],
-    "country": "Ethiopia",
-    "website": "https://www.qubi.com/"
-  },
-  {
-    "id": 24,
-    "name": "Valoro",
-    "description": "an online blockchain platform allow business users with absolutely NO coding skills to create their own blockchain applications.",
-    "category": ["Blockchain", "Software"],
-    "country": "Egypt",
-    "website": "https://www.valoro.xyz"
-  },
-  {
-    "id": 25,
-    "name": "IDF3",
-    "description": "iDF3 is mobile platform that allow cashless transactions between any two parties making POS and money transfer a seamless experience",
-    "category": ["Blockchain", "E-Commerce", "FinTech", "Mobile Payments"],
-    "country": "Egypt",
-    "website": "http://www.idf3.com/"
-  },
-  {
-    "id": 26,
-    "name": "CryptoWex",
-    "description": "With CryptoWex Bot you can trade 24/7 and more than 2000 cryptocurrencies with many more features",
-    "category": [
-      "Blockchain",
-      "Cryptocurrency",
-      "Financial Services",
-      "Internet",
-      "Software",
-      "Trading Platform"
-    ],
-    "country": "Lesotho",
-    "website": "http://cryptowex.tech/"
-  },
-  {
-    "id": 27,
-    "name": "Spache",
-    "description": "Spache is a real estate crowdfuding platform which allows normal people to invest in new property projects at a low cost.",
-    "category": ["Blockchain", "Real Estate Investment"],
-    "country": "South Africa",
-    "website": "https://www.spache.co"
-  },
-  {
-    "id": 28,
-    "name": "Kobolet",
-    "description": "Kobolet is a lending company building an ecosystem to enable people use crypto assets as collateral to secure cash loans.",
-    "category": [
-      "Blockchain",
-      "Consumer Lending",
-      "Cryptocurrency",
-      "Financial Services",
-      "FinTech",
-      "Internet"
-    ],
-    "country": "Nigeria",
-    "website": "https://kobolet.com/"
-  },
-  {
-    "id": 29,
-    "name": "Havene",
-    "description": "Havene is a digital assets exchange and fundraising platform",
-    "category": ["Blockchain", "Crowdfunding", "Cryptocurrency", "Financial Services"],
-    "country": "Nigeria",
-    "website": "https://havene.io"
-  },
-  {
-    "id": 30,
-    "name": "Bitpaya",
-    "description": "Bitpaya is a digital currency exchange and remittance platform that uses blockchain to lower the cost and enhance quick settlement.",
-    "category": ["Blockchain", "Cryptocurrency", "Finance", "Mobile Payments", "Payments"],
-    "country": "Nigeria",
-    "website": "https://bitpaya.com"
-  },
-  {
-    "id": 31,
-    "name": "Cryptovecs Capital",
-    "description": "Cryptovecs Capital is a black-owned African Investment and Technology company headquartered in Johannesburg.",
-    "category": ["Blockchain", "Financial Services", "FinTech"],
-    "country": "South Africa",
-    "website": "http://cryptovecs.com/"
-  },
-  {
-    "id": 32,
-    "name": "XTRABYTES",
-    "description": "XTRABYTES is a modular blockchain platform designed to provide significant increases in speed, security, scalability.",
-    "category": ["Blockchain", "Cryptocurrency"],
-    "country": "Seychelles",
-    "website": "https://xtrabytes.global/"
-  },
-  {
-    "id": 33,
-    "name": "Coinpesa",
-    "description": "CoinPesa is a digital asset exchange and crypto agent network.",
-    "category": ["Blockchain", "Cryptocurrency", "Financial Exchanges"],
-    "country": "Uganda",
-    "website": "http://www.coinpesa.co"
-  },
-  {
-    "id": 34,
-    "name": "Ekasi Bucks",
-    "description": "Ekasi Bucks is an application for the point of sale blockchain cryptocurrency markets.",
-    "category": ["Apps", "Blockchain", "Cryptocurrency"],
-    "country": "South Africa",
-    "website": "https://ekasibucks.co.za/"
-  },
-  {
-    "id": 35,
-    "name": "Touchabl Pictures",
-    "description": "'Shazam' for fashion discovery. Making buying & selling of fashion stress-free in Africa; just touch or snap it to buy instantly.",
-    "category": [
-      "Artificial Intelligence",
-      "Business Intelligence",
-      "Commercial",
-      "E-Commerce",
-      "Machine Learning",
-      "Photo Sharing"
-    ],
-    "country": "Nigeria",
-    "website": "https://about.touchabl.com/"
-  },
-  {
-    "id": 36,
-    "name": "Wendy Paulet Consults Ltd",
-    "description": "A management consulting firm dedicated to nurturing Nigerian startups to larger enterprises.",
-    "category": ["Business Intelligence"],
-    "country": "Nigeria",
-    "website": "http://www.wendypauletconsults.com"
-  },
-  {
-    "id": 37,
-    "name": "Bulwark Investment Holdings",
-    "description": "Bulwark Investment Holdings provides commercial general liability insurance and property insurance underwriting services.",
-    "category": ["Commercial Insurance"],
-    "country": "South Africa",
-    "website": null
-  },
-  {
-    "id": 38,
-    "name": "United. Dots",
-    "description": "Mobile Apps and IT Solutions",
-    "category": [
-      "Apps",
-      "Artificial Intelligence",
-      "Big Data",
-      "Education",
-      "iOS",
-      "Mobile",
-      "Mobile Apps"
-    ],
-    "country": "Tunisia",
-    "website": "https://u4nited.com/"
-  },
-  {
-    "id": 39,
-    "name": "minoHealth",
-    "description": "Democratizing Quality Healthcare with Artificial Intelligence, Data Analytics and Cloud Computing",
-    "category": [
-      "Analytics",
-      "Artificial Intelligence",
-      "Big Data",
-      "Cloud Computing",
-      "Health Care",
-      "Health Diagnostics",
-      "Machine Learning",
-      "Medical",
-      "Predictive Analytics"
-    ],
-    "country": "Ghana",
-    "website": "https://www.minohealth.com"
-  },
-  {
-    "id": 40,
-    "name": "CubeZy",
-    "description": "AI Engine that helps learners to acquire new skill or certificate",
-    "category": ["Artificial Intelligence", "Big Data", "Education", "Software"],
-    "country": "Egypt",
-    "website": "http://www.cubezy.net"
-  },
-  {
-    "id": 41,
-    "name": "Neo Soft Investment Limited",
-    "description": "Blockchain system to track medicine from national warehouse to patient",
-    "category": ["Android", "Blockchain", "Ethereum", "Government", "GovTech", "Health Care"],
-    "country": "Zambia",
-    "website": "http://ecompanyapp.co.za"
-  },
-  {
-    "id": 42,
-    "name": "Connected Kenya Summit",
-    "description": "Connected Kenya Summit is a Manufacturing,food security,Universal healthcare and affordable housing.",
-    "category": ["Blockchain", "Health Care", "Internet", "Manufacturing"],
-    "country": "Kenya",
-    "website": "http://www.connected.go.ke/"
-  },
-  {
-    "id": 43,
-    "name": "Medico Gate",
-    "description": "E-commerce for original medical devices",
-    "category": [
-      "Blockchain",
-      "E-Commerce",
-      "E-Commerce Platforms",
-      "Health Care",
-      "Medical",
-      "Medical Device"
-    ],
-    "country": "Egypt",
-    "website": "https://medicogate.com"
-  },
-  {
-    "id": 44,
-    "name": "SendieCo Logistics",
-    "description": "Sendie is a decentralized logistics company serving Nigeria and Africa as a whole.We make delivery of packages possible in just few clicks.",
-    "category": ["Blockchain", "Logistics", "Supply Chain Management"],
-    "country": "Nigeria",
-    "website": "http://www.sendie.ng"
-  },
-  {
-    "id": 45,
-    "name": "Crugit",
-    "description": "A lifestlye blog that aims to improve the producitivity of youths and adults alike",
-    "category": [
-      "Business Information Systems",
-      "E-Learning",
-      "Health Care",
-      "Internet",
-      "Lifestyle"
-    ],
-    "country": "Nigeria",
-    "website": "https://crugit.com"
-  },
-  {
-    "id": 46,
-    "name": "Empower Africa",
-    "description": "Empower Africa specializes in business development, network, deal facilitation, agriculture, energy, and education.",
-    "category": [
-      "Business Development",
-      "Business Information Systems",
-      "Business Intelligence",
-      "Education"
-    ],
-    "country": "Sierra Leone",
-    "website": "https://www.empowerafrica.com/"
-  },
-  {
-    "id": 47,
-    "name": "3E Management Training & Research Institute",
-    "description": "Bridging the skill gap in business strategy and growth hack for micro, small and medium-sized enterprices (MSMEs)",
-    "category": [
-      "Business Intelligence",
-      "Corporate Training",
-      "Management Consulting",
-      "Market Research",
-      "Small and Medium Businesses"
-    ],
-    "country": "Ghana",
-    "website": "http://3emtri.org/"
-  },
-  {
-    "id": 48,
-    "name": "Snupify",
-    "description": "Snupify is Zambia's number 1 destination for buyers & sellers marketplace.",
-    "category": ["Consumer", "E-Commerce", "Internet", "Marketplace", "Mobile"],
-    "country": "Zambia",
-    "website": "https://www.snupify.com"
-  },
-  {
-    "id": 49,
-    "name": "Karide App",
-    "description": "Karide Technologies Inc, commonly known as Karide is an African ride-hailing company , The company is based in Africa,",
-    "category": ["Apps", "Consumer", "Transportation"],
-    "country": "Uganda",
-    "website": "http://www.karideapp.com"
-  },
-  {
-    "id": 50,
-    "name": "The Online Butchery",
-    "description": "The Online Butchery is an online meat store where you can get Reliable Fresh and Organic meat products.",
-    "category": ["Apps", "Consumer", "E-Commerce"],
-    "country": "Uganda",
-    "website": "https://theonlinebutchery.com"
-  },
-  {
-    "id": 51,
-    "name": "Sxuirrel",
-    "description": "Sxuirrel is a community marketplace for finding storage & parking space.",
-    "category": [
-      "Communities",
-      "Consumer",
-      "Marketplace",
-      "Mobile Apps",
-      "Parking",
-      "Peer to Peer",
-      "Self-Storage"
-    ],
-    "country": "South Africa",
-    "website": "https://sxuirrel.com/"
-  },
-  {
-    "id": 52,
-    "name": "Forhey",
-    "description": "Forhey provides full garment care services with smart on-demand door to door technology.",
-    "category": ["Consumer", "Internet", "Service Industry"],
-    "country": "Ghana",
-    "website": "https://www.forhey.com"
-  },
-  {
-    "id": 53,
-    "name": "5QHQH.com",
-    "description": "We are 9GAG for Arab world which is user generated funny content.",
-    "category": ["Consumer", "Content", "Online Portals"],
-    "country": "Egypt",
-    "website": "http://5qhqh.com/"
-  },
-  {
-    "id": 54,
-    "name": "Solve",
-    "description": "Solve offers repair and maintenance services for household appliances.",
-    "category": ["Consumer Applications", "Consumer Electronics", "Mobile Apps"],
-    "country": "Egypt",
-    "website": "http://sal7lyy.com"
-  },
-  {
-    "id": 55,
-    "name": "Advancer™",
-    "description": "Nigerias' trendy salary advance platform.We are an alternative lender offering unsecured loans to millennials and blue/white collar workers;",
-    "category": ["Consumer Lending", "FinTech", "Predictive Analytics"],
-    "country": "Nigeria",
-    "website": "https://www.theadvancer.online"
-  },
-  {
-    "id": 56,
-    "name": "Toppowa",
-    "description": "Toppowa is a Patient Finance Startup that provides access to instant loans to low income earners to self pay for medical & healthcare Bills",
-    "category": ["Consumer Lending", "Financial Services", "Health Care", "Health Insurance"],
-    "country": "Uganda",
-    "website": "https://www.toppowa.com"
-  },
-  {
-    "id": 57,
-    "name": "Salescabal",
-    "description": "Mobile-based inventory management and online store builder designed for the African market.",
-    "category": ["Consumer Software", "E-Commerce", "Retail Technology"],
-    "country": "Nigeria",
-    "website": "https://www.salescabal.com"
-  },
-  {
-    "id": 58,
-    "name": "SuitablePay",
-    "description": "Digital Payments For Africa",
-    "category": [
-      "Cryptocurrency",
-      "Finance",
-      "Financial Exchanges",
-      "Financial Services",
-      "FinTech"
-    ],
-    "country": "Nigeria",
-    "website": "https://suitablepay.com"
-  },
-  {
-    "id": 59,
-    "name": "Paramount Trading Education",
-    "description": "Paramount Trading Education helps young people develop skill-sets and flexibility through trading and investing education.",
-    "category": ["Cryptocurrency", "E-Learning", "EdTech", "Training"],
-    "country": "Nigeria",
-    "website": "https://paramounttrading.online"
-  },
-  {
-    "id": 60,
-    "name": "Token Capital",
-    "description": "Holding company",
-    "category": [
-      "Cryptocurrency",
-      "Financial Services",
-      "Information Technology",
-      "Internet",
-      "Software"
-    ],
-    "country": "South Africa",
-    "website": null
-  },
-  {
-    "id": 61,
-    "name": "Folgory",
-    "description": "Folgory is an online cryptocurrency trading platform.",
-    "category": ["Cryptocurrency", "Information Technology", "Payments", "Trading Platform"],
-    "country": "Seychelles",
-    "website": "https://folgory.com/"
-  },
-  {
-    "id": 62,
-    "name": "Guap Pay",
-    "description": "Secure payments processing company and financial solutions developers",
-    "category": ["Cryptocurrency", "Financial Services", "Information Technology", "Payments"],
-    "country": "Zambia",
-    "website": "http://guap-pay.com"
-  },
-  {
-    "id": 63,
-    "name": "Notonlab",
-    "description": "Software, Chatbots, Verification",
-    "category": [
-      "Apps",
-      "Artificial Intelligence",
-      "Cryptocurrency",
-      "Information Technology",
-      "Messaging",
-      "Software"
-    ],
-    "country": "Kenya",
-    "website": "https://notonlab.com/"
-  },
-  {
-    "id": 64,
-    "name": "CARMA",
-    "description": "Carma is a one-stop shop for lenders and revenue-generating assets for any organization.",
-    "category": ["Data Integration"],
-    "country": "Nigeria",
-    "website": "https://carmachain.com/"
-  },
-  {
-    "id": 65,
-    "name": "Orgunite",
-    "description": "A cloud collaboration platform for you, your team and customers in real time.",
-    "category": [
-      "Analytics",
-      "Cloud Computing",
-      "Customer Service",
-      "Data Storage",
-      "Document Management",
-      "Project Management",
-      "SaaS"
-    ],
-    "country": "South Africa",
-    "website": "https://www.orguniteapp.com/"
-  },
-  {
-    "id": 66,
-    "name": "Passage Nigeria",
-    "description": "Passage Nigeria delivers services in the field of data backup, security, internet services and VoIP services.",
-    "category": ["Data Storage", "Internet", "VoIP"],
-    "country": "Nigeria",
-    "website": "https://passagenigeria.com/"
-  },
-  {
-    "id": 67,
-    "name": "MyPerks",
-    "description": "MyPerks is a platform that helps companies enhance their employee value proposition with innovative employee engagement solutions.",
-    "category": ["Apps", "Employee Benefits", "Local Business"],
-    "country": "South Africa",
-    "website": "https://myperks.co.za"
-  },
-  {
-    "id": 68,
-    "name": "Cape Town Stock Exchange",
-    "description": "The Stock Exchange of Cape Town",
-    "category": [
-      "Finance",
-      "Financial Exchanges",
-      "Financial Services",
-      "FinTech",
-      "Information Technology"
-    ],
-    "country": "South Africa",
-    "website": "https://ctsx.co.za"
-  },
-  {
-    "id": 69,
-    "name": "Payclide",
-    "description": "Payclide is a mobile payments, remittance and financial services platform for Africa.",
-    "category": [
-      "E-Commerce",
-      "Finance",
-      "Financial Services",
-      "FinTech",
-      "Hardware",
-      "Mobile Payments",
-      "Payments",
-      "Software"
-    ],
-    "country": "Uganda",
-    "website": "https://www.payclide.com"
-  },
-  {
-    "id": 70,
-    "name": "Swipe",
-    "description": "Swipe is allows small businesses to access finance by providing them with credit using its business credit card.",
-    "category": ["Finance", "Financial Services"],
-    "country": "Nigeria",
-    "website": "https://www.getswipe.com/"
-  },
-  {
-    "id": 71,
-    "name": "Fundor Holdings",
-    "description": "We are a private equity firm that focuses on providing advisory, financial and management backing to growth companies.",
-    "category": ["Finance", "Financial Services"],
-    "country": "Kenya",
-    "website": "https://www.fundorholdings.co.ke"
-  },
-  {
-    "id": 72,
-    "name": "Allpro Technologies",
-    "description": "Allpro Technologies is a fintech startup.",
-    "category": [
-      "Education",
-      "Finance",
-      "Financial Services",
-      "FinTech",
-      "Information Technology",
-      "Payments",
-      "Software"
-    ],
-    "country": "Nigeria",
-    "website": "https://allprotech.co/"
-  },
-  {
-    "id": 73,
-    "name": "Deepera.AI",
-    "description": "Deepera.AI specializes in offering AI-based solutions to provide better financial advisory services and strategies for its clients.",
-    "category": ["Artificial Intelligence", "Finance", "Information Technology"],
-    "country": "Tunisia",
-    "website": "https://deepera.ai/"
-  },
-  {
-    "id": 74,
-    "name": "Workngopro",
-    "description": "Workngopro is an internet company that provides financial services.",
-    "category": ["Finance", "Financial Services", "FinTech", "Internet"],
-    "country": "Egypt",
-    "website": null
-  },
-  {
-    "id": 75,
-    "name": "Inclusive Financial Technologies",
-    "description": "Inclusive is a pan-African financial data API that helps financial services onboard.",
-    "category": ["Finance", "Financial Services", "FinTech"],
-    "country": "Ghana",
-    "website": "https://www.inclusiveft.com/"
-  },
-  {
-    "id": 76,
-    "name": "FinHound",
-    "description": "FinHound is a financial service provider company.",
-    "category": ["Finance", "Financial Services"],
-    "country": "South Africa",
-    "website": "https://finhound.co.za"
-  },
-  {
-    "id": 77,
-    "name": "Imeela",
-    "description": "Imeela is a crowdfunding platform in Nigeria that provides new opportunities to fund creative projects,businesses and charitable projects.",
-    "category": ["Finance", "Funding Platform"],
-    "country": "Nigeria",
-    "website": "https://imeela.com"
-  },
-  {
-    "id": 78,
-    "name": "TABECH SERVICOS",
-    "description": "MóvelCare is a virtual mobile insurance service that uses mobile phones to access funeral insurance without the use of internet.",
-    "category": ["Finance"],
-    "country": "Mozambique",
-    "website": null
-  },
-  {
-    "id": 79,
-    "name": "The Sponsorshop",
-    "description": "The Sponsorshop is a digital eco-system that connects prospective sponsors with individuals, events, organizations and agencies.",
-    "category": ["Advertising", "Events", "Finance", "Internet"],
-    "country": "South Africa",
-    "website": "https://thesponsorshop.co.za/"
-  },
-  {
-    "id": 80,
-    "name": "AirAdvance",
-    "description": "AirAdvance solves the problem that Airbnb income is mostly unrecognized by traditional finance and lending institutions.",
-    "category": ["Finance", "Financial Services", "FinTech", "Payments"],
-    "country": "South Africa",
-    "website": "http://airadvance.co.za/"
-  },
-  {
-    "id": 81,
-    "name": "EyeCover",
-    "description": "B2B company which ensures customer retention and new customer acquisition to optometry practices by using innovating insurance models.",
-    "category": ["Finance", "Financial Services", "Insurance"],
-    "country": "South Africa",
-    "website": "https://www.eyecover.co.za"
-  },
-  {
-    "id": 82,
-    "name": "MES & DAK",
-    "description": "MES & DAK is a fintech startup offering an ecosystem for financial services and capacity building to MSMEs development.",
-    "category": [
-      "Enterprise Resource Planning (ERP)",
-      "Finance",
-      "Financial Services",
-      "FinTech",
-      "Small and Medium Businesses"
-    ],
-    "country": "Morocco",
-    "website": "https://www.mesdak.com/#"
-  },
-  {
-    "id": 83,
-    "name": "FX-Traid Investment & Savings",
-    "description": "An Investment Management & Savings Company",
-    "category": ["Financial Exchanges", "Financial Services", "FinTech"],
-    "country": "Nigeria",
-    "website": "https://fx-traidinv.com"
-  },
-  {
-    "id": 84,
-    "name": "Beepae",
-    "description": "Escrow payment wallet & gateway",
-    "category": ["Financial Services", "FinTech", "Transaction Processing"],
-    "country": "Nigeria",
-    "website": "https://beepae.com"
-  },
-  {
-    "id": 85,
-    "name": "Bulkpay",
-    "description": "Bulk payment app for bulk transfer, data, airtime purchase, and bills payment",
-    "category": ["Financial Services", "FinTech", "Information Technology", "Software"],
-    "country": "Nigeria",
-    "website": "https://bulkpay.app/"
-  },
-  {
-    "id": 86,
-    "name": "Ozidi",
-    "description": "Financial Services",
-    "category": ["AgTech", "Financial Services"],
-    "country": "Nigeria",
-    "website": "http://ozidi.ng/"
-  },
-  {
-    "id": 87,
-    "name": "Kobii Africa",
-    "description": "Peer-to-peer Mobile Payment App",
-    "category": ["Financial Services", "Internet"],
-    "country": "Nigeria",
-    "website": "https://kobii.africa"
-  },
-  {
-    "id": 88,
-    "name": "DARA",
-    "description": "Fund raiser saving and contribution an online app that helps raise, save and contribute fund for long or short teams project",
-    "category": ["Financial Services", "FinTech", "Software"],
-    "country": "Nigeria",
-    "website": "http://darademo.fisthomeparty.com"
-  },
-  {
-    "id": 89,
-    "name": "PesaGuide",
-    "description": "Finance, Fintech, Platform",
-    "category": ["Financial Services", "FinTech", "Payments", "Personal Finance"],
-    "country": "Kenya",
-    "website": "https://pesaguide.com/"
-  },
-  {
-    "id": 90,
-    "name": "Freebe",
-    "description": "A software developemt company",
-    "category": ["Financial Services", "FinTech", "Information Technology", "Software"],
-    "country": "Nigeria",
-    "website": "https://www.freebe.com.ng"
-  },
-  {
-    "id": 91,
-    "name": "Zapay",
-    "description": "Quick Global Money Transfer and e-Commerce Merchant Services",
-    "category": ["E-Commerce", "Financial Services", "FinTech", "Payments"],
-    "country": "Nigeria",
-    "website": "https://www.zapay.me"
-  },
-  {
-    "id": 92,
-    "name": "Shield Finders",
-    "description": "Fintech and financial service provider to the unbanked",
-    "category": ["Financial Services"],
-    "country": "Nigeria",
-    "website": "http://shieldfinders.com/"
-  },
-  {
-    "id": 93,
-    "name": "Goatti",
-    "description": "Goatti provides financial, investment and agricultural solutions to livestock farming.",
-    "category": ["Agriculture", "Financial Services"],
-    "country": "Nigeria",
-    "website": "https://goatti.ng/"
-  },
-  {
-    "id": 94,
-    "name": "SME Wallet",
-    "description": "SME Wallet is a FinTech Platform built to support bottom of the pyramid suppliers build resilient small businesses",
-    "category": ["Financial Services", "FinTech", "Information Technology", "Software"],
-    "country": "Uganda",
-    "website": "https://www.smewallets.com"
-  },
-  {
-    "id": 95,
-    "name": "Neomutual",
-    "description": "Neomutual is an online platform dedicated to giving uninsured & underinsured individuals alternative coverage through zero interest credit.",
-    "category": ["Financial Services", "FinTech"],
-    "country": "South Africa",
-    "website": "https://neomutual.com"
-  },
-  {
-    "id": 96,
-    "name": "Prospa",
-    "description": "Prospa is a mobile savings wallet with no monthly fees and no required minimum account balance.",
-    "category": ["Financial Services", "FinTech"],
-    "country": "South Africa",
-    "website": "https://www.prospa.co.za/"
-  },
-  {
-    "id": 97,
-    "name": "YouFarm",
-    "description": "Mobile App",
-    "category": ["Agriculture", "Financial Services", "Internet"],
-    "country": "Zimbabwe",
-    "website": "http://www.youfarm.co.zw/"
-  },
-  {
-    "id": 98,
-    "name": "Mlinzi",
-    "description": "Its an online escrow services platform that seek to enhance trust in trades. We do so by offering escrow API's ,marketplace & SaaS platform",
-    "category": ["E-Commerce", "Financial Services", "Internet", "Internet of Things"],
-    "country": "Kenya",
-    "website": "https://mlinzi.co.ke/"
-  },
-  {
-    "id": 99,
-    "name": "Jiggle",
-    "description": "Jiggle is a meal budgeting platform budgeting for meals and makes gain control spending.",
-    "category": ["Education", "Financial Services", "FinTech", "Food and Beverage", "Insurance"],
-    "country": "Nigeria",
-    "website": "http://www.jiggle.com.ng"
-  },
-  {
-    "id": 100,
-    "name": "FunziCard",
-    "description": "FunziCard is a pocket money management solution for kids and teens",
-    "category": ["Financial Services", "Software"],
-    "country": "Kenya",
-    "website": "http://funzicard.co.ke"
-  }
+    {
+        "id": 1,
+        "name": "One Chilimba edited dted edited",
+        "description": "edited One Chilimba is a Zambia based web platform that focuses on easing access to financing for youths and small businesses.",
+        "category": [
+            "Accounting",
+            "Financial Services",
+            "Machine Learning"
+        ],
+        "country": "Zambia",
+        "website": "https://onechilimba.com"
+    },
+    {
+        "id": 2,
+        "name": "Djuaji edted",
+        "description": "Djuaji is an accounting platform that allows businesses to conduct survey-based research by paying respondents with mobile money.",
+        "category": [
+            "Accounting",
+            "Communities",
+            "Mobile"
+        ],
+        "country": "Kenya",
+        "website": "https://www.djuaji.com/"
+    },
+    {
+        "id": 3,
+        "name": "AgriAI",
+        "description": "Smart agriculture solutions",
+        "category": [
+            "Agriculture",
+            "AgTech",
+            "Asset Management"
+        ],
+        "country": "South Africa",
+        "website": null
+    },
+    {
+        "id": 4,
+        "name": "DeepLogik",
+        "description": "AI, ML, Finance, Banking, Saas, Mobile",
+        "category": [
+            "Artificial Intelligence",
+            "Banking",
+            "Financial Services",
+            "FinTech",
+            "Information Technology",
+            "Internet",
+            "Machine Learning",
+            "Mobile",
+            "SaaS",
+            "Software"
+        ],
+        "country": "Morocco",
+        "website": "https://www.deeplogik.com"
+    },
+    {
+        "id": 5,
+        "name": "Loniwa Sacco",
+        "description": "Loniwa Sacco is a digital savings & credit company. We offer both short & long term loans to individuals and SMEs in Kenya",
+        "category": [
+            "Banking",
+            "Financial Services",
+            "Venture Capital"
+        ],
+        "country": "Kenya",
+        "website": "https://www.loniwasacco.com/"
+    },
+    {
+        "id": 6,
+        "name": "flippify",
+        "description": "Digital financial services platform for millennials.",
+        "category": [
+            "Banking",
+            "Financial Services",
+            "FinTech"
+        ],
+        "country": "Ghana",
+        "website": "http://getflippify.com"
+    },
+    {
+        "id": 7,
+        "name": "Regalia International (k) Ltd",
+        "description": "Mr Banks, an online platform developed for Kenya, enables users to upload their banking needs and get related offers directly from banks.",
+        "category": [
+            "Banking",
+            "FinTech"
+        ],
+        "country": "Kenya",
+        "website": "https://www.mrbanks-kenya.com"
+    },
+    {
+        "id": 8,
+        "name": "Airbuy",
+        "description": "Airbuy is an alternative payment that allows e-commerce sites to accept payments without their customers exposing their banking details.",
+        "category": [
+            "Banking",
+            "E-Commerce",
+            "FinTech",
+            "Information Technology"
+        ],
+        "country": "South Africa",
+        "website": "https://www.airbuy.africa"
+    },
+    {
+        "id": 9,
+        "name": "Zoto",
+        "description": "Zoto is Nigeria's fastest growing mobile digital wallet/payments venture changing the way people pay for for online & offline services",
+        "category": [
+            "Banking",
+            "Finance",
+            "Financial Services",
+            "FinTech"
+        ],
+        "country": "Nigeria",
+        "website": "https://zoto.com.ng/"
+    },
+    {
+        "id": 10,
+        "name": "RiovicPay",
+        "description": "RiovicPay is an innovative company providing money transfer and payment tools.",
+        "category": [
+            "Banking",
+            "Finance",
+            "FinTech",
+            "Payments"
+        ],
+        "country": "South Africa",
+        "website": "http://riovicpay.com"
+    },
+    {
+        "id": 11,
+        "name": "Howfa",
+        "description": "Community based social media platform. Howfa helps you connect with people and opportunities around your neighbourhood.",
+        "category": [
+            "Big Data",
+            "Information Services",
+            "Information Technology",
+            "Mobile",
+            "Software"
+        ],
+        "country": "Nigeria",
+        "website": null
+    },
+    {
+        "id": 12,
+        "name": "Agric Wallet",
+        "description": "Agric Wallet is a FinTech platform using Artificial Intelligence to manage smallholder payment risk in the supply chain.",
+        "category": [
+            "Agriculture",
+            "Big Data",
+            "Financial Services",
+            "FinTech",
+            "Machine Learning",
+            "Payments"
+        ],
+        "country": "Uganda",
+        "website": "https://www.agricwallet.com"
+    },
+    {
+        "id": 13,
+        "name": "Numbers",
+        "description": "innovation and manufacture of consumer technologies that provide Clean Energy",
+        "category": [
+            "Big Data",
+            "CleanTech",
+            "Energy",
+            "Information Technology",
+            "Renewable Energy",
+            "Security",
+            "Solar"
+        ],
+        "country": "Nigeria",
+        "website": "http://numbers.xigma.org/"
+    },
+    {
+        "id": 14,
+        "name": "VIRGOTECH",
+        "description": "Technology and IT",
+        "category": [
+            "Artificial Intelligence",
+            "Big Data",
+            "Information and Communications Technology (ICT)",
+            "Internet of Things",
+            "Software Engineering"
+        ],
+        "country": "Cameroon",
+        "website": "https://virgotech.cm"
+    },
+    {
+        "id": 15,
+        "name": "Huzzle",
+        "description": "The mobile app that literally offers you the opportunity to get what you want based on your budget, location, time and your convenience",
+        "category": [
+            "Big Data",
+            "iOS",
+            "Social Media"
+        ],
+        "country": "Nigeria",
+        "website": "https://huzzle.net/"
+    },
+    {
+        "id": 16,
+        "name": "Mintrics",
+        "description": "A Social Video Analytics & Intelligence Platform that empowers publishers to double their viewership by making data driven decisions",
+        "category": [
+            "Analytics",
+            "Artificial Intelligence",
+            "Big Data",
+            "Machine Learning"
+        ],
+        "country": "Egypt",
+        "website": "http://mintrics.com/"
+    },
+    {
+        "id": 17,
+        "name": "WideBot",
+        "description": "WideBot is a Conversational AI Platform that build AI-enabled chatbots that communicate in formal and informal Middle Eastern languages.",
+        "category": [
+            "Artificial Intelligence",
+            "Big Data",
+            "Machine Learning",
+            "Natural Language Processing"
+        ],
+        "country": "Egypt",
+        "website": "https://www.widebot.net/"
+    },
+    {
+        "id": 18,
+        "name": "Node Africa Limited",
+        "description": "Managed Cloud for Enterprises in Africa",
+        "category": [
+            "Big Data",
+            "Cloud Computing",
+            "IaaS"
+        ],
+        "country": "Kenya",
+        "website": "https://nodeafrica.com/"
+    },
+    {
+        "id": 19,
+        "name": "Farosian",
+        "description": "Farosian offers unparalleled insight in a digital age, when approaching Social Media - Screening, Literacy Training, and Policy Design.",
+        "category": [
+            "Artificial Intelligence",
+            "Big Data",
+            "Credit",
+            "Human Resources",
+            "Information Services",
+            "Information Technology",
+            "Machine Learning",
+            "Predictive Analytics",
+            "Risk Management",
+            "Social Media"
+        ],
+        "country": "South Africa",
+        "website": "http://www.farosian.com/"
+    },
+    {
+        "id": 20,
+        "name": "Shoppersbill",
+        "description": "Integrated payment, Invoicing and billing Platform",
+        "category": [
+            "Apps",
+            "Billing",
+            "Financial Services",
+            "Information Technology",
+            "Mobile",
+            "Mobile Payments",
+            "Payments",
+            "Software"
+        ],
+        "country": "Nigeria",
+        "website": "https://www.shoppersbill.com"
+    },
+    {
+        "id": 21,
+        "name": "Mirror Trading International",
+        "description": "Mirror Trading International is a trading and networking company that uses Bitcoin as its base currency and to pay member bonuses.",
+        "category": [
+            "Bitcoin",
+            "Cryptocurrency",
+            "Trading Platform"
+        ],
+        "country": "South Africa",
+        "website": "https://www.mirrortradinginternational.com/"
+    },
+    {
+        "id": 22,
+        "name": "Levidge",
+        "description": "Levidge is a high-performance crypto collateral trading platform that trades Bitcoin, alt-coins, and assets.",
+        "category": [
+            "Bitcoin",
+            "Cryptocurrency",
+            "Financial Exchanges",
+            "FinTech",
+            "Information Technology",
+            "Trading Platform"
+        ],
+        "country": "Seychelles",
+        "website": "https://levidge.com"
+    },
+    {
+        "id": 23,
+        "name": "QUBI",
+        "description": "QUBI provides top level digital currency trading services for bitcoin, litecoin, ethereum, QB, ripple, eos and more.",
+        "category": [
+            "Bitcoin",
+            "Cryptocurrency",
+            "Ethereum",
+            "FinTech"
+        ],
+        "country": "Ethiopia",
+        "website": "https://www.qubi.com/"
+    },
+    {
+        "id": 24,
+        "name": "Valoro",
+        "description": "an online blockchain platform allow business users with absolutely NO coding skills to create their own blockchain applications.",
+        "category": [
+            "Blockchain",
+            "Software"
+        ],
+        "country": "Egypt",
+        "website": "https://www.valoro.xyz"
+    },
+    {
+        "id": 25,
+        "name": "IDF3",
+        "description": "iDF3 is mobile platform that allow cashless transactions between any two parties making POS and money transfer a seamless experience",
+        "category": [
+            "Blockchain",
+            "E-Commerce",
+            "FinTech",
+            "Mobile Payments"
+        ],
+        "country": "Egypt",
+        "website": "http://www.idf3.com/"
+    },
+    {
+        "id": 26,
+        "name": "CryptoWex",
+        "description": "With CryptoWex Bot you can trade 24/7 and more than 2000 cryptocurrencies with many more features",
+        "category": [
+            "Blockchain",
+            "Cryptocurrency",
+            "Financial Services",
+            "Internet",
+            "Software",
+            "Trading Platform"
+        ],
+        "country": "Lesotho",
+        "website": "http://cryptowex.tech/"
+    },
+    {
+        "id": 27,
+        "name": "Spache",
+        "description": "Spache is a real estate crowdfuding platform which allows normal people to invest in new property projects at a low cost.",
+        "category": [
+            "Blockchain",
+            "Real Estate Investment"
+        ],
+        "country": "South Africa",
+        "website": "https://www.spache.co"
+    },
+    {
+        "id": 28,
+        "name": "Kobolet",
+        "description": "Kobolet is a lending company building an ecosystem to enable people use crypto assets as collateral to secure cash loans.",
+        "category": [
+            "Blockchain",
+            "Consumer Lending",
+            "Cryptocurrency",
+            "Financial Services",
+            "FinTech",
+            "Internet"
+        ],
+        "country": "Nigeria",
+        "website": "https://kobolet.com/"
+    },
+    {
+        "id": 29,
+        "name": "Havene",
+        "description": "Havene is a digital assets exchange and fundraising platform",
+        "category": [
+            "Blockchain",
+            "Crowdfunding",
+            "Cryptocurrency",
+            "Financial Services"
+        ],
+        "country": "Nigeria",
+        "website": "https://havene.io"
+    },
+    {
+        "id": 30,
+        "name": "Bitpaya",
+        "description": "Bitpaya is a digital currency exchange and remittance platform that uses blockchain to lower the cost and enhance quick settlement.",
+        "category": [
+            "Blockchain",
+            "Cryptocurrency",
+            "Finance",
+            "Mobile Payments",
+            "Payments"
+        ],
+        "country": "Nigeria",
+        "website": "https://bitpaya.com"
+    },
+    {
+        "id": 31,
+        "name": "Cryptovecs Capital",
+        "description": "Cryptovecs Capital is a black-owned African Investment and Technology company headquartered in Johannesburg.",
+        "category": [
+            "Blockchain",
+            "Financial Services",
+            "FinTech"
+        ],
+        "country": "South Africa",
+        "website": "http://cryptovecs.com/"
+    },
+    {
+        "id": 32,
+        "name": "XTRABYTES",
+        "description": "XTRABYTES is a modular blockchain platform designed to provide significant increases in speed, security, scalability.",
+        "category": [
+            "Blockchain",
+            "Cryptocurrency"
+        ],
+        "country": "Seychelles",
+        "website": "https://xtrabytes.global/"
+    },
+    {
+        "id": 33,
+        "name": "Coinpesa",
+        "description": "CoinPesa is a digital asset exchange and crypto agent network.",
+        "category": [
+            "Blockchain",
+            "Cryptocurrency",
+            "Financial Exchanges"
+        ],
+        "country": "Uganda",
+        "website": "http://www.coinpesa.co"
+    },
+    {
+        "id": 34,
+        "name": "Ekasi Bucks",
+        "description": "Ekasi Bucks is an application for the point of sale blockchain cryptocurrency markets.",
+        "category": [
+            "Apps",
+            "Blockchain",
+            "Cryptocurrency"
+        ],
+        "country": "South Africa",
+        "website": "https://ekasibucks.co.za/"
+    },
+    {
+        "id": 35,
+        "name": "Touchabl Pictures",
+        "description": "'Shazam' for fashion discovery. Making buying & selling of fashion stress-free in Africa; just touch or snap it to buy instantly.",
+        "category": [
+            "Artificial Intelligence",
+            "Business Intelligence",
+            "Commercial",
+            "E-Commerce",
+            "Machine Learning",
+            "Photo Sharing"
+        ],
+        "country": "Nigeria",
+        "website": "https://about.touchabl.com/"
+    },
+    {
+        "id": 36,
+        "name": "Wendy Paulet Consults Ltd",
+        "description": "A management consulting firm dedicated to nurturing Nigerian startups to larger enterprises.",
+        "category": [
+            "Business Intelligence"
+        ],
+        "country": "Nigeria",
+        "website": "http://www.wendypauletconsults.com"
+    },
+    {
+        "id": 37,
+        "name": "Bulwark Investment Holdings",
+        "description": "Bulwark Investment Holdings provides commercial general liability insurance and property insurance underwriting services.",
+        "category": [
+            "Commercial Insurance"
+        ],
+        "country": "South Africa",
+        "website": null
+    },
+    {
+        "id": 38,
+        "name": "United. Dots",
+        "description": "Mobile Apps and IT Solutions",
+        "category": [
+            "Apps",
+            "Artificial Intelligence",
+            "Big Data",
+            "Education",
+            "iOS",
+            "Mobile",
+            "Mobile Apps"
+        ],
+        "country": "Tunisia",
+        "website": "https://u4nited.com/"
+    },
+    {
+        "id": 39,
+        "name": "minoHealth",
+        "description": "Democratizing Quality Healthcare with Artificial Intelligence, Data Analytics and Cloud Computing",
+        "category": [
+            "Analytics",
+            "Artificial Intelligence",
+            "Big Data",
+            "Cloud Computing",
+            "Health Care",
+            "Health Diagnostics",
+            "Machine Learning",
+            "Medical",
+            "Predictive Analytics"
+        ],
+        "country": "Ghana",
+        "website": "https://www.minohealth.com"
+    },
+    {
+        "id": 40,
+        "name": "CubeZy",
+        "description": "AI Engine that helps learners to acquire new skill or certificate",
+        "category": [
+            "Artificial Intelligence",
+            "Big Data",
+            "Education",
+            "Software"
+        ],
+        "country": "Egypt",
+        "website": "http://www.cubezy.net"
+    },
+    {
+        "id": 41,
+        "name": "Neo Soft Investment Limited",
+        "description": "Blockchain system to track medicine from national warehouse to patient",
+        "category": [
+            "Android",
+            "Blockchain",
+            "Ethereum",
+            "Government",
+            "GovTech",
+            "Health Care"
+        ],
+        "country": "Zambia",
+        "website": "http://ecompanyapp.co.za"
+    },
+    {
+        "id": 42,
+        "name": "Connected Kenya Summit",
+        "description": "Connected Kenya Summit is a Manufacturing,food security,Universal healthcare and affordable housing.",
+        "category": [
+            "Blockchain",
+            "Health Care",
+            "Internet",
+            "Manufacturing"
+        ],
+        "country": "Kenya",
+        "website": "http://www.connected.go.ke/"
+    },
+    {
+        "id": 43,
+        "name": "Medico Gate",
+        "description": "E-commerce for original medical devices",
+        "category": [
+            "Blockchain",
+            "E-Commerce",
+            "E-Commerce Platforms",
+            "Health Care",
+            "Medical",
+            "Medical Device"
+        ],
+        "country": "Egypt",
+        "website": "https://medicogate.com"
+    },
+    {
+        "id": 44,
+        "name": "SendieCo Logistics",
+        "description": "Sendie is a decentralized logistics company serving Nigeria and Africa as a whole.We make delivery of packages possible in just few clicks.",
+        "category": [
+            "Blockchain",
+            "Logistics",
+            "Supply Chain Management"
+        ],
+        "country": "Nigeria",
+        "website": "http://www.sendie.ng"
+    },
+    {
+        "id": 45,
+        "name": "Crugit",
+        "description": "A lifestlye blog that aims to improve the producitivity of youths and adults alike",
+        "category": [
+            "Business Information Systems",
+            "E-Learning",
+            "Health Care",
+            "Internet",
+            "Lifestyle"
+        ],
+        "country": "Nigeria",
+        "website": "https://crugit.com"
+    },
+    {
+        "id": 46,
+        "name": "Empower Africa",
+        "description": "Empower Africa specializes in business development, network, deal facilitation, agriculture, energy, and education.",
+        "category": [
+            "Business Development",
+            "Business Information Systems",
+            "Business Intelligence",
+            "Education"
+        ],
+        "country": "Sierra Leone",
+        "website": "https://www.empowerafrica.com/"
+    },
+    {
+        "id": 47,
+        "name": "3E Management Training & Research Institute",
+        "description": "Bridging the skill gap in business strategy and growth hack for micro, small and medium-sized enterprices (MSMEs)",
+        "category": [
+            "Business Intelligence",
+            "Corporate Training",
+            "Management Consulting",
+            "Market Research",
+            "Small and Medium Businesses"
+        ],
+        "country": "Ghana",
+        "website": "http://3emtri.org/"
+    },
+    {
+        "id": 48,
+        "name": "Snupify",
+        "description": "Snupify is Zambia's number 1 destination for buyers & sellers marketplace.",
+        "category": [
+            "Consumer",
+            "E-Commerce",
+            "Internet",
+            "Marketplace",
+            "Mobile"
+        ],
+        "country": "Zambia",
+        "website": "https://www.snupify.com"
+    },
+    {
+        "id": 49,
+        "name": "Karide App",
+        "description": "Karide Technologies Inc, commonly known as Karide is an African ride-hailing company , The company is based in Africa,",
+        "category": [
+            "Apps",
+            "Consumer",
+            "Transportation"
+        ],
+        "country": "Uganda",
+        "website": "http://www.karideapp.com"
+    },
+    {
+        "id": 50,
+        "name": "The Online Butchery",
+        "description": "The Online Butchery is an online meat store where you can get Reliable Fresh and Organic meat products.",
+        "category": [
+            "Apps",
+            "Consumer",
+            "E-Commerce"
+        ],
+        "country": "Uganda",
+        "website": "https://theonlinebutchery.com"
+    },
+    {
+        "id": 51,
+        "name": "Sxuirrel",
+        "description": "Sxuirrel is a community marketplace for finding storage & parking space.",
+        "category": [
+            "Communities",
+            "Consumer",
+            "Marketplace",
+            "Mobile Apps",
+            "Parking",
+            "Peer to Peer",
+            "Self-Storage"
+        ],
+        "country": "South Africa",
+        "website": "https://sxuirrel.com/"
+    },
+    {
+        "id": 52,
+        "name": "Forhey",
+        "description": "Forhey provides full garment care services with smart on-demand door to door technology.",
+        "category": [
+            "Consumer",
+            "Internet",
+            "Service Industry"
+        ],
+        "country": "Ghana",
+        "website": "https://www.forhey.com"
+    },
+    {
+        "id": 53,
+        "name": "5QHQH.com",
+        "description": "We are 9GAG for Arab world which is user generated funny content.",
+        "category": [
+            "Consumer",
+            "Content",
+            "Online Portals"
+        ],
+        "country": "Egypt",
+        "website": "http://5qhqh.com/"
+    },
+    {
+        "id": 54,
+        "name": "Solve",
+        "description": "Solve offers repair and maintenance services for household appliances.",
+        "category": [
+            "Consumer Applications",
+            "Consumer Electronics",
+            "Mobile Apps"
+        ],
+        "country": "Egypt",
+        "website": "http://sal7lyy.com"
+    },
+    {
+        "id": 55,
+        "name": "Advancer™",
+        "description": "Nigerias' trendy salary advance platform.We are an alternative lender offering unsecured loans to millennials and blue/white collar workers;",
+        "category": [
+            "Consumer Lending",
+            "FinTech",
+            "Predictive Analytics"
+        ],
+        "country": "Nigeria",
+        "website": "https://www.theadvancer.online"
+    },
+    {
+        "id": 56,
+        "name": "Toppowa",
+        "description": "Toppowa is a Patient Finance Startup that provides access to instant loans to low income earners to self pay for medical & healthcare Bills",
+        "category": [
+            "Consumer Lending",
+            "Financial Services",
+            "Health Care",
+            "Health Insurance"
+        ],
+        "country": "Uganda",
+        "website": "https://www.toppowa.com"
+    },
+    {
+        "id": 57,
+        "name": "Salescabal",
+        "description": "Mobile-based inventory management and online store builder designed for the African market.",
+        "category": [
+            "Consumer Software",
+            "E-Commerce",
+            "Retail Technology"
+        ],
+        "country": "Nigeria",
+        "website": "https://www.salescabal.com"
+    },
+    {
+        "id": 58,
+        "name": "SuitablePay",
+        "description": "Digital Payments For Africa",
+        "category": [
+            "Cryptocurrency",
+            "Finance",
+            "Financial Exchanges",
+            "Financial Services",
+            "FinTech"
+        ],
+        "country": "Nigeria",
+        "website": "https://suitablepay.com"
+    },
+    {
+        "id": 59,
+        "name": "Paramount Trading Education",
+        "description": "Paramount Trading Education helps young people develop skill-sets and flexibility through trading and investing education.",
+        "category": [
+            "Cryptocurrency",
+            "E-Learning",
+            "EdTech",
+            "Training"
+        ],
+        "country": "Nigeria",
+        "website": "https://paramounttrading.online"
+    },
+    {
+        "id": 60,
+        "name": "Token Capital",
+        "description": "Holding company",
+        "category": [
+            "Cryptocurrency",
+            "Financial Services",
+            "Information Technology",
+            "Internet",
+            "Software"
+        ],
+        "country": "South Africa",
+        "website": null
+    },
+    {
+        "id": 61,
+        "name": "Folgory",
+        "description": "Folgory is an online cryptocurrency trading platform.",
+        "category": [
+            "Cryptocurrency",
+            "Information Technology",
+            "Payments",
+            "Trading Platform"
+        ],
+        "country": "Seychelles",
+        "website": "https://folgory.com/"
+    },
+    {
+        "id": 62,
+        "name": "Guap Pay",
+        "description": "Secure payments processing company and financial solutions developers",
+        "category": [
+            "Cryptocurrency",
+            "Financial Services",
+            "Information Technology",
+            "Payments"
+        ],
+        "country": "Zambia",
+        "website": "http://guap-pay.com"
+    },
+    {
+        "id": 63,
+        "name": "Notonlab",
+        "description": "Software, Chatbots, Verification",
+        "category": [
+            "Apps",
+            "Artificial Intelligence",
+            "Cryptocurrency",
+            "Information Technology",
+            "Messaging",
+            "Software"
+        ],
+        "country": "Kenya",
+        "website": "https://notonlab.com/"
+    },
+    {
+        "id": 64,
+        "name": "CARMA",
+        "description": "Carma is a one-stop shop for lenders and revenue-generating assets for any organization.",
+        "category": [
+            "Data Integration"
+        ],
+        "country": "Nigeria",
+        "website": "https://carmachain.com/"
+    },
+    {
+        "id": 65,
+        "name": "Orgunite",
+        "description": "A cloud collaboration platform for you, your team and customers in real time.",
+        "category": [
+            "Analytics",
+            "Cloud Computing",
+            "Customer Service",
+            "Data Storage",
+            "Document Management",
+            "Project Management",
+            "SaaS"
+        ],
+        "country": "South Africa",
+        "website": "https://www.orguniteapp.com/"
+    },
+    {
+        "id": 66,
+        "name": "Passage Nigeria",
+        "description": "Passage Nigeria delivers services in the field of data backup, security, internet services and VoIP services.",
+        "category": [
+            "Data Storage",
+            "Internet",
+            "VoIP"
+        ],
+        "country": "Nigeria",
+        "website": "https://passagenigeria.com/"
+    },
+    {
+        "id": 67,
+        "name": "MyPerks",
+        "description": "MyPerks is a platform that helps companies enhance their employee value proposition with innovative employee engagement solutions.",
+        "category": [
+            "Apps",
+            "Employee Benefits",
+            "Local Business"
+        ],
+        "country": "South Africa",
+        "website": "https://myperks.co.za"
+    },
+    {
+        "id": 68,
+        "name": "Cape Town Stock Exchange",
+        "description": "The Stock Exchange of Cape Town",
+        "category": [
+            "Finance",
+            "Financial Exchanges",
+            "Financial Services",
+            "FinTech",
+            "Information Technology"
+        ],
+        "country": "South Africa",
+        "website": "https://ctsx.co.za"
+    },
+    {
+        "id": 69,
+        "name": "Payclide",
+        "description": "Payclide is a mobile payments, remittance and financial services platform for Africa.",
+        "category": [
+            "E-Commerce",
+            "Finance",
+            "Financial Services",
+            "FinTech",
+            "Hardware",
+            "Mobile Payments",
+            "Payments",
+            "Software"
+        ],
+        "country": "Uganda",
+        "website": "https://www.payclide.com"
+    },
+    {
+        "id": 70,
+        "name": "Swipe",
+        "description": "Swipe is allows small businesses to access finance by providing them with credit using its business credit card.",
+        "category": [
+            "Finance",
+            "Financial Services"
+        ],
+        "country": "Nigeria",
+        "website": "https://www.getswipe.com/"
+    },
+    {
+        "id": 71,
+        "name": "Fundor Holdings",
+        "description": "We are a private equity firm that focuses on providing advisory, financial and management backing to growth companies.",
+        "category": [
+            "Finance",
+            "Financial Services"
+        ],
+        "country": "Kenya",
+        "website": "https://www.fundorholdings.co.ke"
+    },
+    {
+        "id": 72,
+        "name": "Allpro Technologies",
+        "description": "Allpro Technologies is a fintech startup.",
+        "category": [
+            "Education",
+            "Finance",
+            "Financial Services",
+            "FinTech",
+            "Information Technology",
+            "Payments",
+            "Software"
+        ],
+        "country": "Nigeria",
+        "website": "https://allprotech.co/"
+    },
+    {
+        "id": 73,
+        "name": "Deepera.AI",
+        "description": "Deepera.AI specializes in offering AI-based solutions to provide better financial advisory services and strategies for its clients.",
+        "category": [
+            "Artificial Intelligence",
+            "Finance",
+            "Information Technology"
+        ],
+        "country": "Tunisia",
+        "website": "https://deepera.ai/"
+    },
+    {
+        "id": 74,
+        "name": "Workngopro",
+        "description": "Workngopro is an internet company that provides financial services.",
+        "category": [
+            "Finance",
+            "Financial Services",
+            "FinTech",
+            "Internet"
+        ],
+        "country": "Egypt",
+        "website": null
+    },
+    {
+        "id": 75,
+        "name": "Inclusive Financial Technologies",
+        "description": "Inclusive is a pan-African financial data API that helps financial services onboard.",
+        "category": [
+            "Finance",
+            "Financial Services",
+            "FinTech"
+        ],
+        "country": "Ghana",
+        "website": "https://www.inclusiveft.com/"
+    },
+    {
+        "id": 76,
+        "name": "FinHound",
+        "description": "FinHound is a financial service provider company.",
+        "category": [
+            "Finance",
+            "Financial Services"
+        ],
+        "country": "South Africa",
+        "website": "https://finhound.co.za"
+    },
+    {
+        "id": 77,
+        "name": "Imeela",
+        "description": "Imeela is a crowdfunding platform in Nigeria that provides new opportunities to fund creative projects,businesses and charitable projects.",
+        "category": [
+            "Finance",
+            "Funding Platform"
+        ],
+        "country": "Nigeria",
+        "website": "https://imeela.com"
+    },
+    {
+        "id": 78,
+        "name": "TABECH SERVICOS",
+        "description": "MóvelCare is a virtual mobile insurance service that uses mobile phones to access funeral insurance without the use of internet.",
+        "category": [
+            "Finance"
+        ],
+        "country": "Mozambique",
+        "website": null
+    },
+    {
+        "id": 79,
+        "name": "The Sponsorshop",
+        "description": "The Sponsorshop is a digital eco-system that connects prospective sponsors with individuals, events, organizations and agencies.",
+        "category": [
+            "Advertising",
+            "Events",
+            "Finance",
+            "Internet"
+        ],
+        "country": "South Africa",
+        "website": "https://thesponsorshop.co.za/"
+    },
+    {
+        "id": 80,
+        "name": "AirAdvance",
+        "description": "AirAdvance solves the problem that Airbnb income is mostly unrecognized by traditional finance and lending institutions.",
+        "category": [
+            "Finance",
+            "Financial Services",
+            "FinTech",
+            "Payments"
+        ],
+        "country": "South Africa",
+        "website": "http://airadvance.co.za/"
+    },
+    {
+        "id": 81,
+        "name": "EyeCover",
+        "description": "B2B company which ensures customer retention and new customer acquisition to optometry practices by using innovating insurance models.",
+        "category": [
+            "Finance",
+            "Financial Services",
+            "Insurance"
+        ],
+        "country": "South Africa",
+        "website": "https://www.eyecover.co.za"
+    },
+    {
+        "id": 82,
+        "name": "MES & DAK",
+        "description": "MES & DAK is a fintech startup offering an ecosystem for financial services and capacity building to MSMEs development.",
+        "category": [
+            "Enterprise Resource Planning (ERP)",
+            "Finance",
+            "Financial Services",
+            "FinTech",
+            "Small and Medium Businesses"
+        ],
+        "country": "Morocco",
+        "website": "https://www.mesdak.com/#"
+    },
+    {
+        "id": 83,
+        "name": "FX-Traid Investment & Savings",
+        "description": "An Investment Management & Savings Company",
+        "category": [
+            "Financial Exchanges",
+            "Financial Services",
+            "FinTech"
+        ],
+        "country": "Nigeria",
+        "website": "https://fx-traidinv.com"
+    },
+    {
+        "id": 84,
+        "name": "Beepae",
+        "description": "Escrow payment wallet & gateway",
+        "category": [
+            "Financial Services",
+            "FinTech",
+            "Transaction Processing"
+        ],
+        "country": "Nigeria",
+        "website": "https://beepae.com"
+    },
+    {
+        "id": 85,
+        "name": "Bulkpay",
+        "description": "Bulk payment app for bulk transfer, data, airtime purchase, and bills payment",
+        "category": [
+            "Financial Services",
+            "FinTech",
+            "Information Technology",
+            "Software"
+        ],
+        "country": "Nigeria",
+        "website": "https://bulkpay.app/"
+    },
+    {
+        "id": 86,
+        "name": "Ozidi",
+        "description": "Financial Services",
+        "category": [
+            "AgTech",
+            "Financial Services"
+        ],
+        "country": "Nigeria",
+        "website": "http://ozidi.ng/"
+    },
+    {
+        "id": 87,
+        "name": "Kobii Africa",
+        "description": "Peer-to-peer Mobile Payment App",
+        "category": [
+            "Financial Services",
+            "Internet"
+        ],
+        "country": "Nigeria",
+        "website": "https://kobii.africa"
+    },
+    {
+        "id": 88,
+        "name": "DARA",
+        "description": "Fund raiser saving and contribution an online app that helps raise, save and contribute fund for long or short teams project",
+        "category": [
+            "Financial Services",
+            "FinTech",
+            "Software"
+        ],
+        "country": "Nigeria",
+        "website": "http://darademo.fisthomeparty.com"
+    },
+    {
+        "id": 89,
+        "name": "PesaGuide",
+        "description": "Finance, Fintech, Platform",
+        "category": [
+            "Financial Services",
+            "FinTech",
+            "Payments",
+            "Personal Finance"
+        ],
+        "country": "Kenya",
+        "website": "https://pesaguide.com/"
+    },
+    {
+        "id": 90,
+        "name": "Freebe",
+        "description": "A software developemt company",
+        "category": [
+            "Financial Services",
+            "FinTech",
+            "Information Technology",
+            "Software"
+        ],
+        "country": "Nigeria",
+        "website": "https://www.freebe.com.ng"
+    },
+    {
+        "id": 91,
+        "name": "Zapay",
+        "description": "Quick Global Money Transfer and e-Commerce Merchant Services",
+        "category": [
+            "E-Commerce",
+            "Financial Services",
+            "FinTech",
+            "Payments"
+        ],
+        "country": "Nigeria",
+        "website": "https://www.zapay.me"
+    },
+    {
+        "id": 92,
+        "name": "Shield Finders",
+        "description": "Fintech and financial service provider to the unbanked",
+        "category": [
+            "Financial Services"
+        ],
+        "country": "Nigeria",
+        "website": "http://shieldfinders.com/"
+    },
+    {
+        "id": 93,
+        "name": "Goatti",
+        "description": "Goatti provides financial, investment and agricultural solutions to livestock farming.",
+        "category": [
+            "Agriculture",
+            "Financial Services"
+        ],
+        "country": "Nigeria",
+        "website": "https://goatti.ng/"
+    },
+    {
+        "id": 94,
+        "name": "SME Wallet",
+        "description": "SME Wallet is a FinTech Platform built to support bottom of the pyramid suppliers build resilient small businesses",
+        "category": [
+            "Financial Services",
+            "FinTech",
+            "Information Technology",
+            "Software"
+        ],
+        "country": "Uganda",
+        "website": "https://www.smewallets.com"
+    },
+    {
+        "id": 95,
+        "name": "Neomutual",
+        "description": "Neomutual is an online platform dedicated to giving uninsured & underinsured individuals alternative coverage through zero interest credit.",
+        "category": [
+            "Financial Services",
+            "FinTech"
+        ],
+        "country": "South Africa",
+        "website": "https://neomutual.com"
+    },
+    {
+        "id": 96,
+        "name": "Prospa",
+        "description": "Prospa is a mobile savings wallet with no monthly fees and no required minimum account balance.",
+        "category": [
+            "Financial Services",
+            "FinTech"
+        ],
+        "country": "South Africa",
+        "website": "https://www.prospa.co.za/"
+    },
+    {
+        "id": 97,
+        "name": "YouFarm",
+        "description": "Mobile App",
+        "category": [
+            "Agriculture",
+            "Financial Services",
+            "Internet"
+        ],
+        "country": "Zimbabwe",
+        "website": "http://www.youfarm.co.zw/"
+    },
+    {
+        "id": 98,
+        "name": "Mlinzi",
+        "description": "Its an online escrow services platform that seek to enhance trust in trades. We do so by offering escrow API's ,marketplace & SaaS platform",
+        "category": [
+            "E-Commerce",
+            "Financial Services",
+            "Internet",
+            "Internet of Things"
+        ],
+        "country": "Kenya",
+        "website": "https://mlinzi.co.ke/"
+    },
+    {
+        "id": 99,
+        "name": "Jiggle",
+        "description": "Jiggle is a meal budgeting platform budgeting for meals and makes gain control spending.",
+        "category": [
+            "Education",
+            "Financial Services",
+            "FinTech",
+            "Food and Beverage",
+            "Insurance"
+        ],
+        "country": "Nigeria",
+        "website": "http://www.jiggle.com.ng"
+    },
+    {
+        "id": 100,
+        "name": "FunziCard",
+        "description": "FunziCard is a pocket money management solution for kids and teens",
+        "category": [
+            "Financial Services",
+            "Software"
+        ],
+        "country": "Kenya",
+        "website": "http://funzicard.co.ke"
+    }
 ]

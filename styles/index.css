@@ -1,3 +1,45 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+.custom-form-control {
+  padding-top: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.custom-form-control > :nth-child(1) {
+  width: 20%;
+}
+.custom-form-control label {
+  display: flex;
+  justify-content: space-between;
+}
+/* .custom-form-control > :nth-child(2) {
+  width: 80%;
+} */
+
+.custom-form-control-input-item {
+  flex-grow: 1;
+  padding: 0;
+}
+.alert-block {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 10000;
+  transform: translate(-50%, -50%);
+}
+.loader-overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10005;
+}

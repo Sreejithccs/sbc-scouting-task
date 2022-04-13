@@ -1,19 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Startup } from "../types/startup";
 
-export default function Component() {
-  const [startups, setStartups] = useState<Startup[]>([]);
-
-  useEffect(() => {
-    const fetchStartups = async () => {
-      const response = await fetch("/api/startup");
-      if (response.status !== 200) return;
-      const data = await response.json();
-      setStartups(data);
-    };
-    fetchStartups();
-  }, []);
-
+export default function Component({
+  handleOnRowClick,
+  startups,
+}: {
+  handleOnRowClick: (startup: Startup) => void;
+  startups: any;
+}) {
   return (
     <div className="">
       <table className="border border-gray-900">
@@ -26,9 +20,12 @@ export default function Component() {
           </tr>
         </thead>
         <tbody>
-          {startups.map((startup) => (
+          {startups.map((startup: any) => (
             <tr
-              onDoubleClick={() => console.log("open the modal")}
+              onDoubleClick={() => {
+                handleOnRowClick(startup);
+                console.log("open the modal", startup);
+              }}
               key={startup.id}
               className="odd:bg-slate-100 cursor-pointer hover:bg-slate-300"
             >
