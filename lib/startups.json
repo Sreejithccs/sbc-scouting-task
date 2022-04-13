@@ -1,19 +1,19 @@
 [
     {
         "id": 1,
-        "name": "One Chilimba edited dted edited",
-        "description": "edited One Chilimba is a Zambia based web platform that focuses on easing access to financing for youths and small businesses.",
+        "name": "One Chilimba",
+        "description": "One Chilimba is a Zambia based web platform that focuses on easing access to financing for youths and small businesses.",
         "category": [
-            "Accounting",
             "Financial Services",
-            "Machine Learning"
+            "Internet",
+            "Banking"
         ],
         "country": "Zambia",
         "website": "https://onechilimba.com"
     },
     {
         "id": 2,
-        "name": "Djuaji edted",
+        "name": "Djuaji",
         "description": "Djuaji is an accounting platform that allows businesses to conduct survey-based research by paying respondents with mobile money.",
         "category": [
             "Accounting",
@@ -37,7 +37,7 @@
     },
     {
         "id": 4,
-        "name": "DeepLogik wdwd",
+        "name": "DeepLogik",
         "description": "AI, ML, Finance, Banking, Saas, Mobile",
         "category": [
             "Artificial Intelligence",

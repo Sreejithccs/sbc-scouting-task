@@ -2,19 +2,12 @@ import BasicModal from "@/components/Modal";
 import { Alert, AlertColor, AlertTitle } from "@mui/material";
 import "bootstrap/dist/css/bootstrap.css";
 import { NextPage } from "next";
-import React, {
-  useCallback,
-  useEffect,
-  useMemo,
-  useReducer,
-  useRef,
-  useState,
-} from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import StartupTable from "../components/StartupTable";
 import { Startup } from "../types/startup";
 import { AlertMessage } from "../types/alert";
 import CircularProgress from "@mui/material/CircularProgress";
-import Box from "@mui/material/Box";
+
 const Home: NextPage = () => {
   const [modalData, setModalData] = useState({});
   const [alertObj, setAlertObj] = useState<AlertMessage | null>();

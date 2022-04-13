@@ -149,14 +149,7 @@ export default function BasicModal({
                     {errors.description &&
                       touched.description &&
                       errors.description}
-                    <Grid
-                      item
-                      xs={12}
-                      container
-                      // classes={{
-                      //   root: "custom-form-control",
-                      // }}
-                    >
+                    <Grid item xs={12} container>
                       <Grid item xs={2}>
                         <label htmlFor="category" className="form-label">
                           <span>Category</span>
@@ -164,12 +157,6 @@ export default function BasicModal({
                         </label>
                       </Grid>
                       <Grid item xs={10}>
-                        {/* <Field
-                          className="form-control custom-form-control-input"
-                          type="category"
-                          name="category"
-                          placeholder="Category"
-                        /> */}
                         <Select
                           labelId="demo-multiple-name-label"
                           id="demo-multiple-name"
@@ -181,7 +168,6 @@ export default function BasicModal({
                           }
                           MenuProps={MenuProps}
                           className="form-select"
-                          // className="custom-form-control-input-item"
                         >
                           {data.map((category) => (
                             <MenuItem
@@ -194,24 +180,9 @@ export default function BasicModal({
                           ))}
                         </Select>
                       </Grid>
-                      {/* {selectComponent} */}
                     </Grid>
-                    <Grid
-                      item
-                      xs={12}
-                      container
-                      // classes={{
-                      //   root: "custom-form-control",
-                      // }}
-                    >
-                      <Grid
-                        item
-                        xs={12}
-                        container
-                        // classes={{
-                        //   root: "custom-form-control",
-                        // }}
-                      >
+                    <Grid item xs={12} container>
+                      <Grid item xs={12} container>
                         <Grid item xs={2}></Grid>
                         <Grid item xs={10}>
                           <button

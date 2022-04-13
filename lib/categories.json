@@ -38,5 +38,125 @@
   {
     "label": "Mobile",
     "value": "Mobile"
+  },
+  {
+    "label": "Agriculture",
+    "value": "Agriculture"
+  },
+  {
+    "label": "AgTech",
+    "value": "AgTech"
+  },
+  {
+    "label": "Bitcoin",
+    "value": "Bitcoin"
+  },
+  {
+    "label": "Cryptocurrency",
+    "value": "Cryptocurrency"
+  },
+  {
+    "label": "Trading Platform",
+    "value": "Trading Platform"
+  },
+  {
+    "label": "Mobile Payments",
+    "value": "Mobile Payments"
+  },
+  {
+    "label": "Billing",
+    "value": "Billing"
+  },
+  {
+    "label": "Risk Management",
+    "value": "Risk Management"
+  },
+  {
+    "label": "Predictive Analytics",
+    "value": "Predictive Analytics"
+  },
+  {
+    "label": "Credit",
+    "value": "Credit"
+  },
+  {
+    "label": "IaaS",
+    "value": "IaaS"
+  },
+  {
+    "label": "Cloud Computing",
+    "value": "Cloud Computing"
+  },
+  {
+    "label": "Asset Management",
+    "value": "Asset Management"
+  },
+  {
+    "label": "SaaS",
+    "value": "SaaS"
+  },
+  {
+    "label": "Software",
+    "value": "Software"
+  },
+  {
+    "label": "Venture Capital",
+    "value": "Venture Capital"
+  },
+  {
+    "label": "E-Commerce",
+    "value": "E-Commerce"
+  },
+  {
+    "label": "Payments",
+    "value": "Payments"
+  },
+  {
+    "label": "Big Data",
+    "value": "Big Data"
+  },
+  {
+    "label": "CleanTech",
+    "value": "CleanTech"
+  },
+  {
+    "label": "Energy",
+    "value": "Energy"
+  },
+  {
+    "label": "Renewable Energy",
+    "value": "Renewable Energy"
+  },
+  {
+    "label": "Security",
+    "value": "Security"
+  },
+  {
+    "label": "Solar",
+    "value": "Solar"
+  },
+  {
+    "label": "Information and Communications Technology (ICT)",
+    "value": "Information and Communications Technology (ICT)"
+  },
+  {
+    "label": "Internet of Things",
+    "value": "Internet of Things"
+  },
+  {
+    "label": "Software Engineering",
+    "value": "Software Engineering"
+  },
+  {
+    "label": "iOS",
+    "value": "iOS"
+  },
+  {
+    "label": "Social Media",
+    "value": "Social Media"
+  },
+  {
+    "label": "Analytics",
+    "value": "Analytics"
   }
 ]
