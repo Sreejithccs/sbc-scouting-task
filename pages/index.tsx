@@ -1,7 +1,7 @@
-import BasicModal from '@/components/Modal';
-import { Alert, AlertColor, AlertTitle } from '@mui/material';
-import 'bootstrap/dist/css/bootstrap.css';
-import { NextPage } from 'next';
+import BasicModal from "@/components/Modal";
+import { Alert, AlertColor, AlertTitle } from "@mui/material";
+import "bootstrap/dist/css/bootstrap.css";
+import { NextPage } from "next";
 import React, {
   useCallback,
   useEffect,
@@ -9,14 +9,14 @@ import React, {
   useReducer,
   useRef,
   useState,
-} from 'react';
-import StartupTable from '../components/StartupTable';
-import { Startup } from '../types/startup';
-import { AlertMessage } from '../types/alert';
-import CircularProgress from '@mui/material/CircularProgress';
-import Box from '@mui/material/Box';
+} from "react";
+import StartupTable from "../components/StartupTable";
+import { Startup } from "../types/startup";
+import { AlertMessage } from "../types/alert";
+import CircularProgress from "@mui/material/CircularProgress";
+import Box from "@mui/material/Box";
 const Home: NextPage = () => {
-  const [modalData, setModalData] = useState();
+  const [modalData, setModalData] = useState({});
   const [alertObj, setAlertObj] = useState<AlertMessage | null>();
   const [showModal, setShowModal] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
   //fetch all startup from api
   const fetchStartups = async () => {
     setIsLoading(true);
-    const response = await fetch('/api/startup');
+    const response = await fetch("/api/startup");
     setIsLoading(false);
     if (response.status !== 200) return;
     const data = await response.json();
@@ -63,7 +63,7 @@ const Home: NextPage = () => {
       setIsLoading(true);
       const response: any = await fetch(`/api/startup/${value.id}`, {
         body: JSON.stringify(value),
-        method: 'PUT',
+        method: "PUT",
       });
       setIsLoading(false);
       const body = await response.json();
@@ -71,21 +71,21 @@ const Home: NextPage = () => {
         //refresh startup list
         setShowModal(false);
         setAlert({
-          severity: 'success',
-          title: 'Success',
-          message: body.message || 'Startup updated',
+          severity: "success",
+          title: "Success",
+          message: body.message || "Startup updated",
         });
       } else {
         setAlert({
-          title: 'Server Error',
-          message: body.message || 'Failed to update',
+          title: "Server Error",
+          message: body.message || "Failed to update",
         });
       }
     } catch (error) {
       setIsLoading(false);
       setAlert({
-        title: 'Server Error',
-        message: 'Failed to update with unknown error',
+        title: "Server Error",
+        message: "Failed to update with unknown error",
       });
     }
   };
@@ -105,11 +105,11 @@ const Home: NextPage = () => {
       {alertObj && (
         <Alert
           className="alert-block"
-          severity={alertObj?.severity || 'error'}
+          severity={alertObj?.severity || "error"}
           onClose={() => setAlertObj(null)}
         >
-          <AlertTitle>{alertObj?.title || 'Unknown Error'}</AlertTitle>
-          {alertObj?.message || 'Something went wrong!'}
+          <AlertTitle>{alertObj?.title || "Unknown Error"}</AlertTitle>
+          {alertObj?.message || "Something went wrong!"}
         </Alert>
       )}
       {isLoading && (
