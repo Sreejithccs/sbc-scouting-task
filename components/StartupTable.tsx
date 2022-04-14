@@ -6,7 +6,7 @@ export default function Component({
   startups,
 }: {
   handleOnRowClick: (startup: Startup) => void;
-  startups: any;
+  startups: Startup[];
 }) {
   return (
     <div className="">
@@ -20,11 +20,10 @@ export default function Component({
           </tr>
         </thead>
         <tbody>
-          {startups.map((startup: any) => (
+          {startups.map((startup: Startup) => (
             <tr
               onDoubleClick={() => {
                 handleOnRowClick(startup);
-                console.log("open the modal", startup);
               }}
               key={startup.id}
               className="odd:bg-slate-100 cursor-pointer hover:bg-slate-300"
@@ -34,7 +33,7 @@ export default function Component({
                 {startup.name}
               </th>
               <td>{startup.description}</td>
-              <td>{startup.category.join(", ")}</td>
+              <td>{startup.category && startup.category.join(", ")}</td>
             </tr>
           ))}
         </tbody>

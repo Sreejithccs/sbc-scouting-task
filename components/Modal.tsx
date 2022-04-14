@@ -40,13 +40,13 @@ export default function BasicModal({
   open: boolean;
   onModalClose: () => void;
   modalData: Startup;
-  onSubmit: any;
+  onSubmit: (values: Startup) => void;
 }) {
-  const [selectedCategories, setSelectedCategories] = React.useState(
+  const [selectedCategories, setSelectedCategories] = React.useState<string[]>(
     modalData.category || []
   );
 
-  const handleChangeSelect = (event: any) => {
+  const handleChangeSelect = (event: { target: { value: string[] | string }} ) => {
     const {
       target: { value },
     } = event;
@@ -68,14 +68,13 @@ export default function BasicModal({
             <Formik
               initialValues={modalData}
               validate={(values) => {
-                const errors: any = {};
+                const errors: Record<string, string> = {};
                 if (!values.name) {
                   errors.name = "Name is required";
                 }
                 return errors;
               }}
               onSubmit={(values, { setSubmitting }) => {
-                console.log("valuesssss: ", values);
                 setTimeout(() => {
                   setSubmitting(false);
                   values.category = selectedCategories || values.category;

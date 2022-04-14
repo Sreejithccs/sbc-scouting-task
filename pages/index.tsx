@@ -7,6 +7,9 @@ import StartupTable from "../components/StartupTable";
 import { Startup } from "../types/startup";
 import { AlertMessage } from "../types/alert";
 import CircularProgress from "@mui/material/CircularProgress";
+import { ResponseMessage } from "types/response";
+import { APP_CONSTANTS } from "common/constants";
+import { STARTUP_API } from "common/apiConstants";
 
 const Home: NextPage = () => {
   const [modalData, setModalData] = useState({});
@@ -29,16 +32,15 @@ const Home: NextPage = () => {
   //fetch all startup from api
   const fetchStartups = async () => {
     setIsLoading(true);
-    const response = await fetch("/api/startup");
+    const response = await fetch(STARTUP_API.get);
     setIsLoading(false);
     if (response.status !== 200) return;
-    const data = await response.json();
+    const responseMessage = (await response.json()) as ResponseMessage;
+    const data = responseMessage.data as Startup[];
     setStartups(data);
   };
 
   const setAlert = useCallback((alertObj: AlertMessage) => {
-    setModalData({});
-    fetchStartups();
     setAlertObj(alertObj);
     setTimeout(() => {
       setAlertObj(null);
@@ -50,35 +52,39 @@ const Home: NextPage = () => {
   }, []);
 
   //handler to update startup
-  const submitHandler = async (value: any) => {
+  const submitHandler = async (value: Startup) => {
     //api call to update json data:
     try {
       setIsLoading(true);
-      const response: any = await fetch(`/api/startup/${value.id}`, {
+      const response = await fetch(STARTUP_API.put + `${value.id}`, {
         body: JSON.stringify(value),
         method: "PUT",
       });
       setIsLoading(false);
-      const body = await response.json();
+      const responseMessage = (await response.json()) as ResponseMessage;
       if (response.status == 200) {
-        //refresh startup list
+        //resetting modal
+        setModalData({});
         setShowModal(false);
+        //refresh startup list
+        fetchStartups();
         setAlert({
           severity: "success",
-          title: "Success",
-          message: body.message || "Startup updated",
+          title: APP_CONSTANTS.SERVER_SUC_MSG_TITLE,
+          message: responseMessage.message,
         });
       } else {
         setAlert({
-          title: "Server Error",
-          message: body.message || "Failed to update",
+          title: APP_CONSTANTS.SERVER_ERR_MSG_TITLE,
+          message:
+            responseMessage.message || APP_CONSTANTS.SERVER_FAILED_UPDATE_ERR,
         });
       }
     } catch (error) {
       setIsLoading(false);
       setAlert({
-        title: "Server Error",
-        message: "Failed to update with unknown error",
+        title: APP_CONSTANTS.SERVER_ERR_MSG_TITLE,
+        message: APP_CONSTANTS.SERVER_UNKNOWN_ERR,
       });
     }
   };

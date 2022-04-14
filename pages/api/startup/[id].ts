@@ -1,7 +1,11 @@
+import { Startup } from "./../../../types/startup";
+import { ResponseMessage } from "./../../../types/response";
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import { NextApiHandler } from "next";
 import data from "../../../lib/startups.json";
-const fs = require("fs");
+import fs from "fs";
+import { APP_CONSTANTS } from "common/constants";
+import { responseObjectWrapper } from "@/utils/apiutil";
 
 const startups: NextApiHandler = async (req, res) => {
   if (req.method === "PUT") {
@@ -20,13 +24,23 @@ const startups: NextApiHandler = async (req, res) => {
       data[startupObjIndex] = startupObj;
       //save data to json
       await saveData();
-      return res.status(200).json(data);
+      return res
+        .status(200)
+        .json(
+          responseObjectWrapper(
+            true,
+            APP_CONSTANTS.API_STARTUP_UPDATE_SUCCESS_MSG,
+            data
+          )
+        );
     }
-    return res.status(404).json({ ok: false, message: "No such startup." });
+    return res
+      .status(404)
+      .json(responseObjectWrapper(true, APP_CONSTANTS.API_NO_SUCH_STARTUP_MSG));
   }
   return res
     .status(400)
-    .json({ ok: false, message: "Method type not supported." });
+    .json(responseObjectWrapper(false, APP_CONSTANTS.API_METHOD_NOT_FOUND_MSG));
 };
 //to save data to json
 async function saveData() {
